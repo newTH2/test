@@ -306,8 +306,8 @@
               },
               "vertices": [
                 {
-                  "x": 506,
-                  "y": 177
+                  "x": 494,
+                  "y": 184
                 }
               ],
               "id": "8f684dc2-c66a-4e05-ba91-97283b5612d6",
@@ -341,6 +341,105 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a780f9e1-8ac5-4171-8a99-38a24ecba4f8"
+              },
+              "target": {
+                "id": "c69123f7-22b9-4c2d-b689-51c467f4057c"
+              },
+              "vertices": [
+                {
+                  "x": 495,
+                  "y": 277
+                }
+              ],
+              "id": "5699eb59-4733-4b8f-9aae-ecab047454c6",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 9",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c69123f7-22b9-4c2d-b689-51c467f4057c"
+              },
+              "target": {
+                "id": "a780f9e1-8ac5-4171-8a99-38a24ecba4f8"
+              },
+              "vertices": [
+                {
+                  "x": 494,
+                  "y": 356
+                }
+              ],
+              "id": "d19d1ac5-efb3-450c-853e-87c0b8ffad1d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 10",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 427,
+                "y": 350
+              },
+              "target": {
+                "x": 489,
+                "y": 253
+              },
+              "vertices": [
+                {
+                  "x": 476,
+                  "y": 306
+                }
+              ],
+              "id": "d74dbc56-2fd6-45d9-bc80-753b39abf100",
+              "z": 13,
+              "attrs": {}
             }
           ]
         },
