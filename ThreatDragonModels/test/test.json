@@ -292,6 +292,55 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 402,
+                "y": 138
+              },
+              "target": {
+                "x": 521,
+                "y": 269
+              },
+              "vertices": [
+                {
+                  "x": 506,
+                  "y": 177
+                }
+              ],
+              "id": "8f684dc2-c66a-4e05-ba91-97283b5612d6",
+              "z": 9,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 555,
+                "y": 331
+              },
+              "angle": 0,
+              "id": "a780f9e1-8ac5-4171-8a99-38a24ecba4f8",
+              "z": 10,
+              "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "Не участвует в данном исследовании",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "App"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
