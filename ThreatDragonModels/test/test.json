@@ -57,7 +57,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "High",
+                  "severity": "Medium",
                   "title": "SQL-инъекция",
                   "type": "Elevation of privilege",
                   "mitigation": "Официальное решение",
@@ -131,7 +131,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 4",
+                      "text": "Queries response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -170,7 +170,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 5",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -199,8 +199,12 @@
               },
               "vertices": [
                 {
-                  "x": 555,
-                  "y": 227
+                  "x": 546,
+                  "y": 247
+                },
+                {
+                  "x": 592,
+                  "y": 216
                 }
               ],
               "id": "348b6831-453a-4107-b9a7-9a832114130e",
@@ -209,7 +213,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 6",
+                      "text": "Web response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -221,6 +225,16 @@
               "outOfScope": false,
               "isEncrypted": true,
               "protocol": "https",
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "MITM",
+                  "type": "Spoofing",
+                  "description": "Не зашифрованный трафик",
+                  "mitigation": "Использовать HTTPS"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -263,7 +277,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "Web request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -271,25 +285,25 @@
                 }
               ],
               "z": 8,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isEncrypted": true,
               "protocol": "https",
               "threats": [
                 {
-                  "status": "Mitigated",
+                  "status": "Open",
                   "severity": "High",
                   "title": "MITM",
                   "type": "Spoofing",
                   "description": "Не зашифрованный трафик",
-                  "mitigation": "Официальное решение"
+                  "mitigation": "Использовать HTTPS"
                 }
               ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -306,8 +320,8 @@
               },
               "vertices": [
                 {
-                  "x": 494,
-                  "y": 184
+                  "x": 470,
+                  "y": 199
                 }
               ],
               "id": "8f684dc2-c66a-4e05-ba91-97283b5612d6",
@@ -363,7 +377,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 9",
+                      "text": "Web request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -402,7 +416,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "Web response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
