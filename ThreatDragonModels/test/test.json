@@ -1,7 +1,8 @@
 {
   "summary": {
     "owner": "Me",
-    "title": "test"
+    "title": "test",
+    "description": "Тестовая модель приложения"
   },
   "detail": {
     "contributors": [],
@@ -463,6 +464,6 @@
         }
       }
     ],
-    "reviewer": "body"
+    "reviewer": "test"
   }
 }
